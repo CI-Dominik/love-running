@@ -99,8 +99,19 @@ main {
 
  /* FOOTER STYLING */
 
-footer {
-    background-color: orange;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 /* MEDIA QUERY FOR TABLET */
