@@ -59,6 +59,18 @@ h1 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+/* NAVBAR STYLES WITH DROPDOWN TOGGLE */
+
+nav {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    left: 0;
+    padding: 0 1rem;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+}
+
  /* MAIN AREA STYLING */
 
 main {
