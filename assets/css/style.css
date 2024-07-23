@@ -26,6 +26,9 @@ body {
 
 header {
     background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -69,6 +72,21 @@ nav {
     padding: 0 1rem;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    top: 100%;
+}
+
+/* NAV TOGGLE */
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
 }
 
  /* MAIN AREA STYLING */
