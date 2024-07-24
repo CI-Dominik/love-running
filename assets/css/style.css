@@ -150,6 +150,24 @@ main {
     margin-bottom: 20px;
 }
 
+/* REASONS IMAGE */
+
+#circle-cover-bg {
+    background: url(../images/reasons-image.webp) no-repeat center center/cover;
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
  /* FOOTER STYLING */
 
 #social-networks {
