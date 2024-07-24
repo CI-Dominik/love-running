@@ -198,6 +198,17 @@ main {
     color: #fafafa;
 }
 
+/* GALLERY PAGE */
+
+#photos {
+    line-height: 0;
+}
+
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
  /* FOOTER STYLING */
 
 #social-networks {
