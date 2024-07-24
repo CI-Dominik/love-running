@@ -226,6 +226,15 @@ main {
     color: #3a3a3a;
 }
 
+/* OPTIMIZATION FOR LARGE PHONES OR LANDSCAPE MODE OVER 576 PIXELS */
+
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* OPTIMIZATION FOR SCREENS OVER 768 PIXELS (TABLET) */
 
 @media screen and (min-width: 768px) {
@@ -290,6 +299,12 @@ main {
         align-self: flex-end;
     }
 
+    /* GALLERY */
+
+    #photos {
+        column-count: 3;
+    }
+
 }
 
 /* OPTIMIZATION FOR SCREENS OVER 992 PIXELS (DESKTOP) */
@@ -300,6 +315,12 @@ main {
 
     a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    /* GALLERY */
+
+    #photos {
+        column-count: 4;
     }
 
 }
