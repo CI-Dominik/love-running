@@ -168,6 +168,30 @@ main {
     justify-content: center;
 }
 
+/* MEETUP STYLING */
+
+#times {
+    background: url(../images/dublin-city.webp) no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times > div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /* STYLING FOR SMALL SCREENS, USING ROWS */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* BORDER FOR EACH SEGMENT */
+    border: 2px solid white;
+}
+
+#times h3 {
+    color: #fafafa;
+}
+
  /* FOOTER STYLING */
 
 #social-networks {
@@ -293,5 +317,5 @@ main {
     #benefits-physical > div {
         align-self: flex-end;
     }
-    
+
 }
